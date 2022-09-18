@@ -50,7 +50,7 @@ class SurveyModel extends Model {
 	}
 
 	verifyCaptchaInput(input){
-		return ""; 
+		return input; 
 	}
 }
 
